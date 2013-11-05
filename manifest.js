@@ -11,7 +11,7 @@ function getManifest() {
     "icon64URL": baseurl+"/mozfest64.png",
   
     // at least one of these must be defined
-    "sidebarURL": baseurl+"/sidebar.htm",
+    "sidebarURL": baseurl+"/sidebar.html",
 
     // should be available for display purposes
     "description": "A Twitter timeline for MozFest",
