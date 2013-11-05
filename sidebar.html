@@ -2,10 +2,14 @@
 <head>
 	<title>#mozfest</title>
   <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <style>
+html{min-height:100%;position:relative}/* make sure it is at least as tall as the viewport */
+body{height:100%}
+#header > a > img{width: 100%; margin: 5px}
+  </style>
 </head>
 <body>
-
-<a class="twitter-timeline" href="https://twitter.com/search?q=%23mozfest"  data-widget-id="397839874767593472">Tweets about "#mozfest"</a>
-
+<div id="header"><a href="http://mozillafestival.org/"><img src="header.png"/></a></div>
+<a class="twitter-timeline" height="300px" href="https://twitter.com/search?q=%23mozfest"  data-widget-id="397839874767593472">Tweets about "#mozfest"</a>
 </body>
 </html>
